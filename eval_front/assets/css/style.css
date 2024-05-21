@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --rouge: #e74c3c;
+    --rouge-fonce: #b83e30;
+    --rose-hr: rgba(234, 120, 120, 0.546);
+    --gris-fonce: rgb(71, 71, 71);
+    --blanc: #fff;
+    --gris-clair: rgba(144, 144, 144, 0.411);
+}
+
+
+
+/* 1ere section  */
+
+.background-hero {
+    background: url("../img/hero-image.jpg") center/cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: var(--blanc);
+
+}
+
+.section1 {
+    color: var(--blanc);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn1,
+.btn3 {
+    border-style: none;
+    margin-top: 15px;
+    background-color: var(--rouge);
+    padding: 6px;
+    border-radius: 5px;
+    color: var(--blanc);
+}
+
+
+
+
+/* 2 eme section  */
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.marge {
+    margin-top: 15px;
+}
+
+.hr {
+    border: 1px solid var(--rose-hr);
+    margin: auto;
+    margin-top: 5px;
+    width: 100px;
+
+
+}
+
+.red {
+    color: var(--rouge);
+}
+
+
+
+/* 3 ème section  */
+
+.section3 {
+    background-color: var(--gris-clair);
+    /* margin-top : 20px; */
+    height: 400px;
+
+}
+
+.center {
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: none;
+    border: none;
+
+}
+
+/* ICONES bootstrap*/
+/* les balises icon <i> sont  inline, penser au display : inline-block pour modifications */
+
+i {
+    display: inline-block;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/* style et couleur fond des icones pages accueil  grey-f = gris-fonce */
+
+.grey-f{
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: var(--gris-fonce);
+    color: var(--blanc);
+}
+
+/* boutons des 3 cards bootstrap */
+.btn2{
+    color: var(--rouge);
+    background-color: var(--blanc);
+    border: 1px solid var(--gris-fonce);
+    border-radius: 5px;
+    padding: 6px;
+    
+}
+
+.footer {
+    display: flex;
+    align-items: last baseline;
+    background-color:var(--rouge);
+    height: 150px;
+    padding: 10px;
+}
+
+
+
+/* titres de la page */
+h3,
+h5 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    color: var(--rouge);
+}
+
+
+/* page contact  */
+
+
+.contact {
+    background: url("../img/hero-image.jpg") center/cover;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titre {
+    /* padding: 30px; */
+    margin: 10px;
+}
+
+/* ICONE page contact */
+
+
+
+i,
+.chevron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--rouge);
+    margin-top: 30px;
+   
+}
+
+.team {
+    background-color:rgba(128, 128, 128, 0.071);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* SECTION Team */
+/* 
+Le noms profils */
+
+h4 {
+    font-family: "Roboto Slab", serif;
+    color: var(--rouge);
+}
+
+
+
+
+.infos {
+    
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.blanc {
+    background-color: var(--blanc);
+}
+
+
+.white {
+    color: var(--blanc);
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.profil {
+    width: 20%;
+    height: 400px;
+    padding: 0;
+    margin: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#profil1{
+    background-image: url("../img/joanne.jpg");
+}
+
+#profil2{
+    background-image: url("../img/gaston.jpg");
+}
+
+#profil3{
+    background-image: url("../img/manuel.jpg");
+}
+
+#profil4{
+    background-image: url("../img/tracy.jpg");
+}
+
+
+/* Section Sponsors */
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bouton {
+    padding: 20px;
+}
+
+/* Section formulaire */
+
+.formulaire {
+    background: url("../img/hero-image.jpg") center/cover;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.involved {
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+.btn-form {
+    border-style: none;
+    margin-top: 15px;
+    background-color: var(--rouge);
+    padding: 6px;
+    border-radius: 5px;
+    color: var(--blanc);
+
+}
+
+
+/* Media Queries */
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .background-hero {
+      height: 80vh;
+    }
+    .section2 {
+      padding: 60px;
+    }
+    .section3 {
+      padding: 60px;
+    }
+  }
+  
+  /* Medium screens */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .background-hero {
+      height: 70vh;
+    }
+    .section2 {
+      padding: 40px;
+    }
+    .section3 {
+      padding: 40px;
+    }
+  }
+  
+  /* Small screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .background-hero {
+      height: 60vh;
+    }
+    .section2 {
+      padding: 20px;
+    }
+    .section3 {
+      padding: 20px;
+    }
+  }
+  
